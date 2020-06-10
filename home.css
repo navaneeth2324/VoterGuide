@@ -1,0 +1,107 @@
+.img1{
+    position: relative;
+    z-index:-1;
+    
+}
+
+
+.button {
+    font-size: 12px;
+    padding: 10px 24px;
+    border-radius: 12px;   
+    background-color:blueviolet; color: black;
+    font-size: medium;
+    transition-duration: 0.5s;
+}
+.button:hover {
+    background-color: indigo; 
+    color:blueviolet;
+  }
+
+    
+
+#first
+{
+    width: 350;
+    height: 350;
+}
+
+#text {
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    justify-content: center;
+}
+
+
+#container {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+    color: brown;
+    padding:15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    p span {
+        border: 0 solid black;
+        padding: 12px;
+        position: relative;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .th {
+        background-color: #CACACA;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 45px;
+        }
+    
+    .tr {
+        background-color: #F1F1F1;
+        border-bottom: 1px solid white;
+        color: #6E6E6E;
+        text-align:center;
+        font-size: 20px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        }
+    
+    .td {
+        padding: 0.75em;
+        }
+        
+
+        legend {
+            background-color:gray;
+            color: #fff;
+            padding: 3px 6px;
+            border-radius: 20px;
+        }
+
+
+        .imgcontainer { 
+            text-align: center; 
+            margin: 24px 0 12px 0; 
+        }
+
+        img.avatar { 
+            width: 40%; 
+            border-radius: 50%; 
+        }
+
+#frm{
+    border:solid gray 1px;
+    width: 20%;
+    border-radius: 5px;
+    margin: 100px auto;
+    background: white;
+    padding: 50px;
+}
+#btn{
+    color: #fff;
+    background: #e7e7e7;
+    padding: 5px;
+    margin-left: auto;
+}
